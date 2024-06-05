@@ -22,7 +22,7 @@ public class MahasiswaTest {
 		Mahasiswa testMahasiswa = new Mahasiswa();
 		
 		testMahasiswa.setIpk(3.50);
-		assertEquals(4.00, testMahasiswa.getIpk(), 0.01);
+		assertEquals(3.50, testMahasiswa.getIpk(), 0.01);
 		assertEquals("Cumlaude", testMahasiswa.getStatusKelulusan());
 		
 		testMahasiswa.setIpk(2.50);
